@@ -1,0 +1,5 @@
+apps:
+  - script   : ./app.js
+    name     : 'qlbh-webapp'
+    instances: 4
+    exec_mode: cluster
