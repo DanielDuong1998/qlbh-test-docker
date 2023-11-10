@@ -10,7 +10,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: qlbh
     volumes: 
-      - ./home/irvine/db/qlbh:/var/lib/mysql
+      - ./home/daniel/db/qlbh:/var/lib/mysql
 
   app:
     build: .
