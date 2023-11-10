@@ -12,9 +12,10 @@ module.exports = function (app) {
     store: new MySQLStore({
       connectionLimit: 100,
       host: '172.17.0.1', // bridge, host: 127.0.0.1
+      // host: 'localhost',
       port: 3306,
       user: 'root',
-      password: '',
+      password: 'root',
       database: 'qlbh',
       charset: 'utf8mb4_bin',
       schema: {
